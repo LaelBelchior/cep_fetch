@@ -1,0 +1,36 @@
+main{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    padding: 1rem;
+    display:flex;
+    flex-direction: column;
+
+    width: 60vw;
+
+    margin-top: 5rem;
+
+    background-color: rgb(139, 178, 212);
+    border-radius: 10px;
+}
+
+label{
+    margin-top: 0.5rem;
+    font-weight:700;
+}
+
+#botoes{
+    margin-top: 1rem;
+}
+
+#botoes input{
+    height: 30px;
+    width: 100px;
+}
